@@ -16,3 +16,7 @@ c(".menu-closer").addEventListener("click", () => {
 
  //Fecha menu lateral da versão mobile quanto tiver menos que uma pizza
  c('aside').style.left = '100vw';
+
+
+OBS: Botão X para fechar o carrinho no mobile não está funcionando, tendo que fechar a página
+Só está adicionando apenas 1 pizza ao carrinho, mesmo se eu escolher mais(no modal) quando clico no carrinho aparece a quantidade certa

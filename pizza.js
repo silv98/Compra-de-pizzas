@@ -3,7 +3,7 @@ let pizzaJson = [
     id: 1,
     name: "Mussarela",
     img: "Imagens/pizza.png",
-    price: 20.19,
+    price: ['R$35,00', 'R$47,00', 'R$63,00'],
     sizes: ["100g", "530g", "860g"],
     description:
       "Descrição da pizza em mais de uma linha muito legal bem interessante",
@@ -12,7 +12,7 @@ let pizzaJson = [
     id: 2,
     name: "Calabresa",
     img: "Imagens/pizza2.png",
-    price: 18.0,
+    price: ['R$35,00', 'R$47,00', 'R$63,00'],
     sizes: ["320g", "530g", "860g"],
     description:
       "Descrição da pizza em mais de uma linha muito legal bem interessante",
@@ -22,7 +22,7 @@ let pizzaJson = [
     name: "Quatro Queijos",
     img: "Imagens/pizza3.png",
     price: 17.45,
-    sizes: ["320g", "530g", "860g"],
+    sizes: ['R$35,00', 'R$47,00', 'R$63,00'],
     description:
       "Descrição da pizza em mais de uma linha muito legal bem interessante",
   },
@@ -30,7 +30,7 @@ let pizzaJson = [
     id: 4,
     name: "Americana",
     img: "Imagens/pizza4.png",
-    price: 19.77,
+    price: ['R$35,00', 'R$47,00', 'R$63,00'],
     sizes: ["320g", "530g", "860g"],
     description:
       "Descrição da pizza em mais de uma linha muito legal bem interessante",
@@ -39,7 +39,7 @@ let pizzaJson = [
     id: 5,
     name: "Sorvete",
     img: "Imagens/pizza5.png",
-    price: 21.43,
+    price: ['R$35,00', 'R$47,00', 'R$63,00'],
     sizes: ["320g", "530g", "860g"],
     description:
       "Descrição da pizza em mais de uma linha muito legal bem interessante",
@@ -48,7 +48,7 @@ let pizzaJson = [
     id: 6,
     name: "Moda da Casa",
     img: "Imagens/pizza6.png",
-    price: 18.55,
+    price: ['R$35,00', 'R$47,00', 'R$63,00'],
     sizes: ["320g", "530g", "860g"],
     description:
       "Descrição da pizza em mais de uma linha muito legal bem interessante",
@@ -57,7 +57,7 @@ let pizzaJson = [
     id: 7,
     name: "Chocolate",
     img: "Imagens/pizza7.png",
-    price: 22.36,
+    price: ['R$35,00', 'R$47,00', 'R$63,00'],
     sizes: ["320g", "530g", "860g"],
     description:
       "Descrição da pizza em mais de uma linha muito legal bem interessante",
