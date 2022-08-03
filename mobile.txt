@@ -1,0 +1,18 @@
+
+Adicionar comandos na versão mobile do projeto Compra de pizzas
+
+Após fechar o modal (closeModal)
+
+///Abrir menu lateral após adicionar pizza ao carrinho na versão mobile
+c(".menu-openner").addEventListener("click", () => {
+  if (cart.length > 0) {
+    c("aside").style.left = "0";
+  }
+});
+  ///Fechar menu lateral ao clicar no X do carrinho na versão mobile
+c(".menu-closer").addEventListener("click", () => {
+  c("aside").style.left = "100vw";
+});
+
+ //Fecha menu lateral da versão mobile quanto tiver menos que uma pizza
+ c('aside').style.left = '100vw';
